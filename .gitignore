@@ -172,3 +172,9 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Personalization
+venv_robot
+recordings
+Ellen.mp4
+yoga.jpg
