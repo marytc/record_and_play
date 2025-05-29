@@ -2,21 +2,20 @@
 
 ## pasos para funcionamiento
 
-Guía Completa para Configurar el Entorno Virtual y Ejecutar el Programa
-1. Crear un entorno virtual (venv)
-En Windows:
+Guía Completa para Configurar y Ejecutar el Programa
+1. En Windows:
 Abre CMD o PowerShell y ejecuta
 ```
 python --version
 ```
-2 La version de python debe ser Python 3.11.x porque las versiones 3.12 en adelante no son compatibles
+La version de python debe ser Python 3.11.x porque las versiones 3.12 en adelante no son compatibles.
 
-3 Descarga https://github.com/marytc/record_and_play.git y descomprime
-4 Luego abre Powershell y arrastra la carpeta descomprimida
+2. Descarga https://github.com/marytc/record_and_play.git y descomprime.
+3. Luego abre Powershell y arrastra la carpeta descomprimida
 ```
 cd [carpeta comprimida]
 ```
-5. Ya estas dentro de la carpeta en powershell ejecuta
+4. Ahora que estas dentro de la carpeta en powershell ejecuta
 
 ```
 python -m venv venv
