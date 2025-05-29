@@ -4,27 +4,31 @@
 
 Guía Completa para Configurar el Entorno Virtual y Ejecutar el Programa
 1. Crear un entorno virtual (venv)
-
-Un entorno virtual permite aislar las dependencias del proyecto para evitar conflictos con otros proyectos.
 En Windows:
-    Abre CMD o PowerShell en la carpeta del proyecto.
+Abre CMD o PowerShell y ejecuta
+```
+python --version
+```
+2 La version de python debe ser Python 3.11.x porque las versiones 3.12 en adelante no son compatibles
 
-    Ejecuta:
-    sh
-    Crea y Activa el entorno virtual
+3 Descarga https://github.com/marytc/record_and_play.git y descomprime
+4 Luego abre Powershell y arrastra la carpeta descomprimida
+```
+cd [carpeta comprimida]
+```
+5. Ya estas dentro de la carpeta en powershell ejecuta
+
 ```
 python -m venv venv
 venv\Scripts\activate
-```
-Instala las librerias
-```
 pip install -r requirements.txt
-```
-
-# Ejecucion del programa
 
 ```
-python record_play.py
+
+# Para hacer correr el codigo python
+
+```
+python record_and_play.py
 ```
 
 ## Controles:

@@ -129,6 +129,7 @@ with mp_holistic.Holistic(
                             cv2.circle(playback_window, end_point, 3, (255, 255, 255), -1)
                     
                     cv2.imshow("Playback", playback_window)
+                    
                     if cv2.waitKey(30) & 0xFF == 27:  # ESC para salir durante reproducción
                         break
                 
@@ -143,7 +144,7 @@ with mp_holistic.Holistic(
         # Guardar datos si estamos grabando
         if recording and results.pose_landmarks:
             frame_count += 1
-            elapsed_time = time.time() - start_time
+            elapsed_time = time.time() - start_time     
             
             # Convertir landmarks a formato serializable
             pose_data = []
